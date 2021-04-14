@@ -106,8 +106,8 @@ body.page-template-page-fullsingle-me {
   background-color: #141414;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 37px;
+  line-height: 50px;
   letter-spacing: -0.5px;
   color: #222222;
   background-image: url("../../images/background.jpg");
@@ -118,8 +118,8 @@ body.page-template-page-fullsingle-me {
     color: #222222; }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
-        font-size: 32px;
-        line-height: 40px; } }
+        font-size: 30px;
+        line-height: 37px; } }
 
 .fs-me {
   padding: 10vh 10vw;
