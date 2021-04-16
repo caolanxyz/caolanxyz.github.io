@@ -280,12 +280,34 @@ a.active {
 
 /* home section
 ==================================================*/
-
+  
 #home {
     background: url(../img/home-bg-2.jpg);
     background-position: center bottom;
     background-size: cover;
 }
+
+
+.fullscreen-bg {
+    position: fixed;
+    size: cover;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    height: 100%;
+    width: 177.77777778vh; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+    position: absolute;
+    left: 50%; /* % of surrounding element */
+    top: 50%;
+    transform: translate(-50%, -55%); /* % of current element */
+}
+
+
+
 
 .table-cell {
     display: table-cell;
