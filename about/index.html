@@ -403,37 +403,16 @@
             </div>
             <div class="col-md-8" data-aos="fade-up">
 
-
-
-                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mgervvge" method="post">
+                <form id="fs-frm" name="simple-contact-form" class="contact-bg" accept-charset="utf-8" action="https://formspree.io/f/mgervvge" method="post">
                 <fieldset id="fs-frm-inputs">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                    <label for="email-address">Email Address</label>
-                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                    <label for="message">Message</label>
-                    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    <input type="text" name="name" class="form-control" id="full-name" placeholder="Full Name" required="">
+                    <input type="email" name="_replyto" class="form-control" id="email-address" placeholder="Email Address" required="">
+                    <textarea rows="5" name="message" class="form-control" id="message" placeholder="Your Message" style="height:120px" required=""></textarea>
+                    <input type="hidden" name="_subject" class="form-control" id="email-subject" value="Contact Form Submission">
                 </fieldset>
-                <input type="submit" value="Submit">
+                <input id="submit" type="submit" class="btn btn-glance" value="Submit">
                 </form>
 
-
-
-
-                <form action="https://formspree.io/f/mgervvge" class="contact-bg" id="contact-form" name="contact" method="POST" novalidate="novalidate" accept-charset="utf-8">
-                    <input type="text" name="name" class="form-control" id="full-name" placeholder="Your Name" />
-                    <input type="email" name="_replyto" class="form-control" id="email-address" placeholder="Your E-mail">
-                    <textarea name="body" id="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
-                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                    <button id="submit" type="submit" name="submit" value="Send" class="btn btn-glance">Send</button>
-                    <div id="success">
-                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
-                    </div>
-                    <div id="error">
-                        <p> Something went wrong, try refreshing and submitting the form again. </p>
-                    </div>
-                </form>
             </div>
         </div>
     </div>

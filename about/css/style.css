@@ -663,14 +663,14 @@ a.active {
     background: #f3f3f3
 }
 
-#contact-form input,
-#contact-form textarea {
+#fs-frm input,
+#fs-frm textarea {
     height: 50px;
     margin-bottom: 10px;
     border-radius: 0;
 }
 
-#contact-form label {
+#fs-frm label {
     display: block;
     margin-bottom: .2em;
     font-size: 13px;
@@ -680,7 +680,7 @@ a.active {
     color: #000;
 }
 
-#contact-form label.error {
+#fs-frm label.error {
     margin-top: 10px;
     margin-bottom: 1em;
     font-size: 12px;
@@ -691,20 +691,20 @@ a.active {
     margin-left: 10px
 }
 
-#contact-form input[type="text"].error,
-#contact-form input[type="password"].error,
-#contact-form input[type="date"].error,
-#contact-form input[type="datetime"].error,
-#contact-form input[type="datetime-local"].error,
-#contact-form input[type="month"].error,
-#contact-form input[type="week"].error,
-#contact-form input[type="email"].error,
-#contact-form input[type="number"].error,
-#contact-form input[type="search"].error,
-#contact-form input[type="tel"].error,
-#contact-form input[type="time"].error,
-#contact-form input[type="url"].error,
-#contact-form textarea.error {
+#fs-frm input[type="text"].error,
+#fs-frm input[type="password"].error,
+#fs-frm input[type="date"].error,
+#fs-frm input[type="datetime"].error,
+#fs-frm input[type="datetime-local"].error,
+#fs-frm input[type="month"].error,
+#fs-frm input[type="week"].error,
+#fs-frm input[type="email"].error,
+#fs-frm input[type="number"].error,
+#fs-frm input[type="search"].error,
+#fs-frm input[type="tel"].error,
+#fs-frm input[type="time"].error,
+#fs-frm input[type="url"].error,
+#fs-frm textarea.error {
     border-color: #D33E43
 }
 
