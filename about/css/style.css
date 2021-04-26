@@ -296,6 +296,7 @@ a.active {
 }
 
 .fullscreen-bg__video {
+    object-fit: cover;
     height: 100%;
     width: 177.77777778vh; /* 100 * 16 / 9 */
     min-width: 100%;
