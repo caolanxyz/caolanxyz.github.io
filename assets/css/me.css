@@ -111,7 +111,7 @@ body.page-template-page-fullsingle-me {
   letter-spacing: -0.5px;
   color: #222222;
   background-image: url("../../images/background.jpg");
-  background-position: bottom center;
+  background-position: bottom left;
   background-size: cover; }
   body.page-template-page-fullsingle-me p {
     margin-bottom: 28px;
@@ -128,7 +128,7 @@ body.page-template-page-fullsingle-me {
   z-index: 1000; }
   @media (max-width: 500px) {
     .fs-me {
-      padding: 5vh 5vw;
+      padding: 5vh 10vw;
       text-align: center; } }
   .fs-me .me-content {
     height: 80vh;
@@ -183,7 +183,8 @@ body.page-template-page-fullsingle-me {
   -webkit-animation: fadein 4s;
           animation: fadein 4s;
   letter-spacing: -1px;
-  max-width: 66%; }
+  max-width: 66%; 
+  text-align: left;}
   @media (max-width: 800px) {
     .bio {
       max-width: none; } }
